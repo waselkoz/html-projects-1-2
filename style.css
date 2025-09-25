@@ -66,20 +66,20 @@ border-right: 3px solid white;
 display: inline-block;
 }
 .fixed-area {
-    position: fixed; /* Fixes the element to the viewport */
-    top: -30px;; /* Positions it at the top of the viewport */
-    left: 0; /* Positions it at the left of the viewport */
-    width: 100%; /* Makes it span the full width */ /* Example styling */
-    z-index: 1000; /* Ensures it stays on top of other content */
+    position: fixed; 
+    top: -30px;; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
 }
 .sidepanel {
   position: fixed;
   right: 0%;
-  top: 0; /* Start at the top */
-  width: 200px; /* Example width */
+  top: 0; 
+  width: 200px; 
   height: 100%;
   background-color: red;
-  transition: top 0.3s; /* Smooth transition for movement */
-  overflow-x: hidden; /* To prevent horizontal scrollbar */
-  z-index: 10; /* Ensure it's above other content */
+  transition: top 0.3s; 
+  overflow-x: hidden; 
+  z-index: 10; 
 }
